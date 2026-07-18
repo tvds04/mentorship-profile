@@ -5,6 +5,7 @@ Spotify-style "artist profile" pages for mentors in the Technology Consulting Wo
 
 ## Files
 - `profile-template.html` - THE TEMPLATE. A single self-contained HTML file (all CSS inline, icons are inline SVG). Verified visually against the reference image.
+- `index.html` - copy of `profile-template.html`, kept in sync so GitHub Pages has a homepage to serve at the repo root. Update this alongside the template whenever the template changes (or once a real `profiles/` index page exists, point `index.html` there instead).
 - `Reference Image.png` - the original design being matched.
 - `Sample Headshot.jpeg` - placeholder headshot used in the template hero image.
 - `TCW Logo.jpg` - the real TCW logo, used in the small tile next to the Following button (same for every profile).
