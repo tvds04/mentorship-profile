@@ -4,8 +4,7 @@
 Spotify-style "artist profile" pages for mentors in the Technology Consulting Workshop (TCW) mentorship program. The design was recreated in HTML from `Reference Image.png` (a mobile Spotify artist page mockup).
 
 ## Files
-- `profile-template.html` - THE TEMPLATE. A single self-contained HTML file (all CSS inline, icons are inline SVG). Verified visually against the reference image.
-- `index.html` - copy of `profile-template.html`, kept in sync so GitHub Pages has a homepage to serve at the repo root. Update this alongside the template whenever the template changes (or once a real `profiles/` index page exists, point `index.html` there instead).
+- `index.html` - THE TEMPLATE, and also what GitHub Pages serves at the repo root. A single self-contained HTML file (all CSS inline, icons are inline SVG). Verified visually against the reference image. `profile-template.html` was retired - use `index.html` as the only source of truth going forward (or once a real `profiles/` index page exists, point `index.html` there instead).
 - `Reference Image.png` - the original design being matched.
 - `Sample Headshot.jpg` - placeholder headshot used in the template hero image.
 - `TCW Logo.jpg` - the real TCW logo, used in the small tile next to the Following button (same for every profile).
@@ -13,7 +12,7 @@ Spotify-style "artist profile" pages for mentors in the Technology Consulting Wo
 - `template-preview.png` - full-page browser screenshot of the finished template, for quick comparison without rendering.
 
 ## How to create a new profile (for future agents)
-1. Copy `profile-template.html` to a new file, e.g. `profiles/firstname-lastname.html`.
+1. Copy `index.html` to a new file, e.g. `profiles/firstname-lastname.html`.
 2. Edit ONLY the spots marked with `<!-- EDIT-ME: ... -->` comments:
    - headshot image path (appears twice: hero + favorite artist card image)
    - mentor name (h1)
